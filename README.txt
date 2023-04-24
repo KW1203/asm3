@@ -1,1 +1,1 @@
-https://github.com/KW1203/asm3.git
+https://kw1203.github.io/asm3/
