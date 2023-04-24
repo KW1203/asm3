@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+  .avata {
+    display: none;
+  }
+
+  .banner-img {
+    height: 50vh;
+  }
+
+  #certificate-section .d-flex {
+    flex-direction: column;
+    gap: 30px;
+    border-left: 0px;
+  }
+
+  #cv-section .fa-2x {
+    color: #fff;
+    background-color: #ffc107;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  #cv-section .d-flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}

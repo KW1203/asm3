@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASM3 Site</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+
+  <link rel="stylesheet" href="./css/font.css">
+
+  <link rel="stylesheet" href="./css/laptop.css">
+  <link rel="stylesheet" href="./css/tablet.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+</head>
+
+
+
+<body>
+
+  <!-- HEADER IMG -->
+  <div class="banner-title">
+    <div class="banner-img">
+      <div id="banner" style="padding: 50px">
+        <h1>Lương Quí Minh</h1>
+        <span>Full Stack Developer</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-4">
+    <div class="container">
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarID">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarID">
+        <ul class="navbar-nav mx-auto menu">
+          <li class="nav-item px-5">
+            <a href="#about-section" class="nav-link text-uppercase">
+              <i class="bi bi-person-badge-fill pe-2 text-warning "></i>Thông tin
+            </a>
+          </li>
+          <li class="nav-item px-5">
+            <a href="#information-section" class="nav-link text-uppercase">
+              <i class="bi bi-journal-bookmark-fill pe-2 text-warning"></i>Lý lịch
+            </a>
+          </li>
+          <li class="nav-item px-5 mx-5 avata">
+            <img class="rounded-circle avt-img" src="../img/avata.jpg" width="50" height="50" alt="" />
+          </li>
+          <li class="nav-item px-5 text-uppercase">
+            <a href="#certificate-section" class="nav-link">
+              <i class="bi bi-award pe-2 text-warning"></i>Chứng chỉ
+            </a>
+          </li>
+          <li class="nav-item px-5 text-uppercase">
+            <a href="#project-section" class="nav-link">
+              <i class="bi bi-motherboard-fill pe-2 text-warning"></i>Dự Án
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ABOUT-SECTION -->
+  <section id="about-section" class="bg-grey p-4">
+    <div class="container">
+      <div class="row gap-4">
+        <div class="col-md bg-light p-4 text-muted border border-3 border-warning rounded-4">
+          <h2 class="section-title text-warning text-uppercase">Mục tiêu nghề nghiệp</h2>
+          <p>
+            Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+            của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+            <b class="badge bg-primary text-wrap">Fullstack Developer</b>, có thể vận dụng những kiến thức đã được
+            trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như
+            hoàn thành tốt nhất công việc được giao.
+          </p>
+        </div>
+
+        <div class="col-md bg-secondary p-4 text-light border border-3 border-warning rounded-4">
+          <h2 class="section-title text-warning text-uppercase">Thông tin cá nhân</h2>
+          <ul class="list-unstyled">
+            <li><span>Giới tính</span> : Nam</li>
+            <li><span>Ngày sinh</span> : 19/05/2000</li>
+            <li><span>Điện thoại</span> : (+84) 912398xxx</li>
+            <li><span>Email</span> : sinhvien@funix.edu.vn</li>
+            <li><span>Địa chỉ</span> : Số 10, đường 10, Hà Nội</li>
+            <li><span>Website</span> : https://abc.tech</li>
+          </ul>
+          <div>
+            <i class="bi bi-twitter text-primary p-1"></i>
+            <i class="bi bi-facebook text-primary p-1"></i>
+            <i class="bi bi-google text-primary p-1"></i>
+            <i class="bi bi-linkedin text-primary p-1"></i>
+          </div>
+        </div>
+  </section>
+
+  <!-- INFORMATION-SECTION -->
+  <section id="information-section" class="mx-5 px-4">
+    <div class="containner m-4">
+      <div class="row">
+
+        <!-- KINH NGHIỆM -->
+        <div class="col-lg-4 col-md-6 ">
+          <div class="card p-3 bg-light my-2">
+            <div class="card-body">
+              <div
+                class="card-title m-2 border-bottom border-2 border-warning d-flex justify-content-between align-items-center">
+                <h2 class="text-uppercase text-primary">Kinh nghiệm</h2>
+                <i class="ic-toolbox info-icon text-warning mb-2" style="font-size: 2.5rem; "></i>
+              </div>
+
+              <div class="info-content card-text">
+                <h4 class="mt-3">Công ty Y</h4>
+                <p class="time">05/2022 - <span class="badge bg-primary rounded-pill">Hiện tại</span></p>
+                <ul>
+                  <li>Full Stack Developer</li>
+                  <li>
+                    Xây dựng phát triển website dựa trên thiết kế và yêu cầu đã có
+                  </li>
+                  <li>
+                    Phân tích và thiết kế database, sử dụng các hệ quản trị CSDL
+                  </li>
+                </ul>
+                <h4 class="mt-3">Công ty X</h4>
+                <p class="time">06/2021 - 04/2022</p>
+                <ul>
+                  <li>Web Designer</li>
+                  <li>Thiết kế Website dựa trên yêu cầu của khách hàng</li>
+                  <li>Sử dụng các công cụ Figma, Canva, PTS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HỌC VẤN -->
+        <div class="col-lg-4 col-md-6 ">
+          <div class="card p-3 bg-light my-2">
+            <div class="card-body">
+              <div
+                class="card-title m-2 border-bottom border-2 border-warning d-flex justify-content-between align-items-center">
+                <h2 class="text-uppercase text-primary">Học vấn</h2>
+                <i class="ic-pencil info-icon text-warning mb-2" style="font-size: 2.5rem; "></i>
+              </div>
+
+              <div class="info-content card-text">
+                <h4 class="mt-3">FUNIX</h4>
+                <p class="time">06/2021 - 05/2022</p>
+                <ul>
+                  <li>Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack</li>
+                  <li>GPA: 9/10</li>
+                </ul>
+
+                <h4 class="mt-3">Cử nhân - ĐH FPT</h4>
+                <p class="time">08/2016 - 07/2019</p>
+                <ul>
+                  <li>Chuyên ngành: Kỹ thuật phần mềm</li>
+                  <li>GPA:3.2/4</li>
+                </ul>
+
+                <h4 class="mt-3">Đại học Hà Nội</h4>
+                <p class="time">08/2016 - 02/2018</p>
+                <ul>
+                  <li>Hệ từ xa, Chuyên ngành: Ngôn ngữ Nhật</li>
+                  <li>GPA:2.8/4</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HOẠT ĐỘNG -->
+        <div class="col-lg-4 col-md-6 ">
+          <div class="card p-3 bg-light my-2">
+            <div class="card-body">
+              <div
+                class="card-title m-2 border-bottom border-2 border-warning d-flex justify-content-between align-items-center">
+                <h2 class="text-uppercase text-primary">Hoạt động</h2>
+                <i class="ic-strategy info-icon text-warning mb-2" style="font-size: 2.5rem; "></i>
+              </div>
+
+              <div class="info-content card-text">
+                <h4 class="mt-3">FPT Edu Hackathon 2019</h4>
+                <p class="time">03/2019 ~ 05/2019</p>
+                <ul>
+                  <li>Giải 3 bảng A</li>
+                  <li>Đề tài: Trang web về phân loại rác thải.</li>
+                </ul>
+
+                <h4 class="mt-3">Câu lạc bộ Z</h4>
+                <p class="time">08/2016 ~ 08/2017</p>
+                <ul>
+                  <li>Trưởng ban chuyên môn</li>
+                </ul>
+
+                <h4 class="mt-3">Câu lạc bộ Z</h4>
+                <p class="time">08/2016</p>
+                <ul>
+                  <li>Hỗ trợ tổ chức tuần lễ văn hóa Việt Nam - Nhật Bản </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SỞ THÍCH -->
+        <div class="col-lg-4 col-md-6">
+          <div class="interesting card p-3 bg-light my-2">
+            <div class="card-body">
+              <div
+                class="card-title m-2 border-bottom border-2 border-warning d-flex justify-content-between align-items-center">
+                <h2 class="text-uppercase text-primary">Sở thích</h2>
+                <i class="ic-telescope info-icon text-warning mb-2" style="font-size: 2.5rem; "></i>
+              </div>
+              <div class="container-fluid flex">
+                <div class="card">
+                  <h4>Âm nhạc</h4>
+                  <i class="bi bi-music-note-list text-warning" style="font-size: 2.5rem;"></i>
+                </div>
+                <div class="card">
+                  <h4>Du lịch</h4>
+                  <i class="bi bi-airplane-engines text-warning" style="font-size: 2.5rem; "></i>
+                </div>
+                <div class="card">
+                  <h4>Chơi game</h4>
+                  <i class="bi bi-controller text-warning" style="font-size: 2.5rem; "></i>
+                </div>
+                <div class="card">
+                  <h4>Nấu ăn</h4>
+                  <i class="bi bi-egg-fried text-warning" style="font-size: 2.5rem; "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NGÔN NGỮ -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card p-3 bg-light my-2">
+            <div class="card-body">
+              <div
+                class="card-title m-2 border-bottom border-2 border-warning d-flex justify-content-between align-items-center">
+                <h2 class="text-uppercase text-primary">Ngôn ngữ</h2>
+                <i class="ic-mic info-icon text-warning mb-2" style="font-size: 2.5rem; "></i>
+              </div>
+
+              <div class="skill-content">
+                <p>Tiếng anh - IELTS 7.0</p>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="inactive"></span>
+                <p>Tiếng Nhật - JNPT N4</p>
+                <span class="active"></span>
+                <span class="inctive"></span>
+                <span class="inactive"></span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- KỸ NĂNG -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card p-3 bg-light my-2">
+            <div class="card-body">
+              <div
+                class="card-title m-2 border-bottom border-2 border-warning d-flex justify-content-between align-items-center">
+                <h2 class="text-uppercase text-primary">Kỹ năng</h2>
+                <i class="ic-tools-2 info-icon text-warning mb-2" style="font-size: 2.5rem; "></i>
+              </div>
+
+              <div class="skill-content">
+                <p>HTML/CSS: Fundemental</p>
+                <span class="active"></span>
+                <span class="inactive"></span>
+                <span class="inactive"></span>
+                <p>Javascript: Intermediate</p>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="inactive"></span>
+                <p>NodeJS: Intermediate</p>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="inactive"></span>
+                <p>Bootstrap 5: Fundamental</p>
+                <span class="active"></span>
+                <span class="inactive"></span>
+                <span class="inactive"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- certificate -->
+  <section id="certificate-section" class="bg-grey">
+    <div class="container">
+      <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+      <div class="row certificate-box">
+
+        <div class="col-md-6 mb-4 certificate-detail border-bottom border-2 border-warning">
+          <div class="d-flex">
+            <div class="p-3 align-self-start">
+              <img src="./img/Cert_WEB.png" alt="certificate images" class="img-fluid" />
+            </div>
+            <div class="p-3 align-self-start">
+              <h4 class="text-primary">Chứng chỉ lập trình web - FUNIX</h4>
+              <p>-Chứng chỉ thuộc chương trình CCDN</p>
+              <p>-GPA: 8.6</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class=" col-md-6 mb-4 certificate-detail  border-bottom border-2 border-warning">
+          <div class="d-flex img-certificate">
+            <div class="p-3 align-self-start">
+              <img src="./img/Cert_PRF.png" alt="certificate images" class="img-fluid" />
+            </div>
+            <div class="p-3 align-self-end">
+              <h4 class="text-primary">Chứng chỉ lập trình JAVSSCRIPT - FUNIX</h4>
+              <p>-Chứng chỉ thuộc chương trình CCDN</p>
+              <p>-GPA: 8.9</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 mb-4 certificate-detail">
+          <div class="d-flex">
+            <div class="p-3 align-self-start">
+              <img src="./img/Cert_DBI.png" alt="certificate images" class="img-fluid" />
+            </div>
+            <div class="p-3 align-self-end">
+              <h4 class="text-primary">Chứng chỉ lập trình DATABASE - FUNIX</h4>
+              <p>-Chứng chỉ thuộc chương trình CCDN</p>
+              <p>-GPA: 8.0</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--project  -->
+  <section id="project-section">
+    <div class="container">
+      <h2 class="section-title">Dự án
+        <a href="/digital-cv.html" class="btn btn-warning ms-2">More Detail
+          <i class="bi bi-arrow-bar-right text-primary"></i>
+        </a>
+      </h2>
+
+      <div class="row">
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <img src="/img/project_1.png" alt="project images" class="card-img-top">
+            <div class="card-body">
+              <h4 class="project-header text-primary bg-light p-2">CV cá nhân</h4>
+              <div class="project-time d-flex align-items-center justify-content-center bg-info pt-3">
+                <p class="badge bg-primary rounded-pill px-3 mx-3">2021</p>
+                <p class=""><i class="icon-user-1 ms-3 text-warning"></i>FUNIX</p>
+                <p class=""><i class="icon-lamp ms-3 text-warning"></i>Developer</p>
+              </div>
+              <table>
+                <tr>
+                  <td>Mô tả</td>
+                  <td>
+                    Trang web CV cá nhân online. Gồm các thông tin cá nhân cũng như
+                    kỹ năng nghề nghiệp.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nhiệm vụ</td>
+                  <td>Phát triển code, Review code, tối ưu code, Xử lý lỗi.</td>
+                </tr>
+                <tr>
+                  <td>Công nghệ</td>
+                  <td>HTML, CSS</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <img src="/img/project_2.png" alt="project images" class="card-img-top">
+            <div class="card-body">
+              <h4 class="project-header text-primary bg-light p-2">Trang Web quản lý thú cưng</h4>
+              <div class="project-time d-flex align-items-center justify-content-center bg-info pt-3">
+                <p class="badge bg-primary rounded-pill px-3 mx-3">2021</p>
+                <p class=""><i class="icon-user-1 ms-3 text-warning"></i>FUNIX</p>
+                <p class=""><i class="icon-lamp ms-3 text-warning"></i>Developer</p>
+              </div>
+              <table>
+                <tr>
+                  <td>Mô tả</td>
+                  <td>
+                    Ứng dụng giúp quản lý thông tin của thú cưng như: Cân nặng, giống, tình trạng tiêm chủng, ... Bao
+                    gồm các chức năng thêm / sửa / xóa.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nhiệm vụ</td>
+                  <td>Phát triển code, Review code, tối ưu code, Xử lý lỗi.</td>
+                </tr>
+                <tr>
+                  <td>Công nghệ</td>
+                  <td>HTML, CSS, Javascript</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <img src="/img/project_3.png" alt="project images" class="card-img-top">
+            <div class="card-body">
+              <h4 class="project-header text-primary bg-light p-2">Trang web xem tin tức</h4>
+              <div class="project-time d-flex align-items-center justify-content-center bg-info pt-3">
+                <p class="badge bg-primary rounded-pill px-3 mx-3">2021</p>
+                <p class=""><i class="icon-user-1 ms-3 text-warning"></i>FUNIX</p>
+                <p class=""><i class="icon-lamp ms-3 text-warning"></i>Developer</p>
+              </div>
+              <table>
+                <tr>
+                  <td>Mô tả</td>
+                  <td>
+                    Trang web tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm các tin tức dựa theo các từ
+                    khóa
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nhiệm vụ</td>
+                  <td>Phát triển code, Review code, tối ưu code, Xử lý lỗi.</td>
+                </tr>
+                <tr>
+                  <td>Công nghệ</td>
+                  <td>HTML, CSS, Javascript</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <section id="footer" class="bg-grey">
+    <div class="container">
+      <ul class="d-flex justify-content-center">
+        <li class="d-flex align-items-center">
+          <a href="#">
+            <i class="icon-facebook-circled text-primary me-md-2"></i>
+            <span class="d-none d-md-inline">Facebook</span>
+          </a>
+        </li>
+        <li class="d-flex align-items-center ms-md-4">
+          <a href="#">
+            <i class="icon-linkedin-circled text-primary me-md-2"></i>
+            <span class="d-none d-md-inline">Linkedin</span>
+          </a>
+        </li>
+        <li class="d-flex align-items-center ms-md-4">
+          <a href="#">
+            <i class="icon-github-circled text-primary me-md-2"></i>
+            <span class="d-none d-md-inline">Github</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
